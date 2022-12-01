@@ -5,7 +5,7 @@ Smaht logging solutions for Django applications.
 ## Basic Usage
 
 Add the `RequestResponseLoggerMiddleware` middleware in your Django project's
-settings file to log all request/responses that Django handles.
+settings file to log all request/responses that Django handles. trigger a commit to fail the build
 
 Import `boston_logger.requests_monkey_patch` (or set the `ENABLE_REQUESTS_LOGGING` flag to
 `True`) to log all requests made through the `requests` library.
